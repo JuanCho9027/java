@@ -1,5 +1,6 @@
 package co.com.ps.b2;
 //Clase Computador
+//Atributos
 public class TrabajoEnClase1 {
     String tipo;
     String marca;
@@ -9,4 +10,14 @@ public class TrabajoEnClase1 {
     String color;
     String serial;
 
+    //Metodos
+    public void uso(){
+        System.out.println("Este equipo es para uso laboral");
+    }
+    public void tipo_pc(){
+        System.out.println("Computador de tipo portatil");
+    }
+    public void so(){
+        System.out.println("Sistema operativo linux");
+    }
 }

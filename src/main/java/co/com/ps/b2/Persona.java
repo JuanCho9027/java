@@ -1,3 +1,6 @@
+//Atributos: Caracteristicas que puede tener un objeto en la vida real
+//Abstracción: Capacidad de extraer informacion y representarla en una CLASE
+//METODO O FUNCION: Hacer algo (Canta, bailar, leer)
 package co.com.ps.b2;
 
 public class Persona {
@@ -9,12 +12,20 @@ public class Persona {
     String id;
     String phone;
 
-    Persona(String name, int age, String id, float tall){
+    //CONSTRUTORES: Metodo especifico que sirve para construir la clase a partir de datos predeterminados
+    //Desde el 'main' estoy llamando dos constructores
+    Persona(){
+
+    }
+    Persona(String name, int age, String sex, String id){
         this.name=name;
         this.age=age;
+        this.sex=sex;
         this.id=id;
-        this.tall=tall;
     }
+    //METODOS O FUNCION (Retornar un valor-respuesta)
+    //Con el VOID no devuelve nada, es estatico 'static'
+    //Este metodo recibe un entero y retorna el mismo entero
     public static void sing(){
         System.out.println("I'm singing");
     }

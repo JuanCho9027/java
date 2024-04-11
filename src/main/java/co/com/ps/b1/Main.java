@@ -1,3 +1,7 @@
+//Toda clase JAVA inicia con MAYUSCULA y esta 'Main' es la clase principal
+//Clase: Plantilla para la declaración de objetos
+//Utilizando el shortcout 'main' se agrega automaticamente
+
 package co.com.ps.b1;
 
 import java.time.LocalDate;

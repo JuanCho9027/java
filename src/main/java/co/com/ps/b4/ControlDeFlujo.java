@@ -23,10 +23,22 @@ public class ControlDeFlujo {
             System.out.println("Iteracción (for): "+i);
         }
         //String
-        List<String> palabras= Arrays.asList("Hola","Mundo","Ejemplo","Practica");
+        List<String> palabras= Arrays.asList("Hola","Mundo","Ejemplo","Practica","Trabajos");
         List<String> palabrasFiltradas=palabras.stream()
-                .filter(palabra->palabra.length()>4)
+                .filter(palabra->palabra.length()>5)
                         .toList();
         System.out.println("Palabras filtradass (Stream): "+palabrasFiltradas);
+
+        List<String> lista=new ArrayList<>();
+        lista.add("c1");
+        lista.add("c2");
+        lista.add("c3");
+        lista.add("c4");
+        lista.add("c5");
+        lista.add("c6");
+
+        for (int i=0; i<lista.size();i++){
+            System.out.println(lista.get(i));
+        }
     }
 }
