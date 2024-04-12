@@ -1,5 +1,6 @@
 package co.com.ps.b2;
 //Clase Computador
+//Clase: Plantilla para la creacion de un objeto
 //Atributos
 public class TrabajoEnClase1 {
     String tipo;

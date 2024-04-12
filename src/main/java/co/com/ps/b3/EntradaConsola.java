@@ -12,5 +12,9 @@ public class EntradaConsola {
         System.out.print("Escriba su edad: ");
         int edad=scanner.nextInt();
         System.out.println("Su edad es "+edad);
-    }
+    } /*catch (Exception e){
+        System.out.println(e);
+    } finally{
+        scanner.close();
+    }*/
 }
